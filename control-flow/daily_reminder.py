@@ -4,7 +4,6 @@ priority = input("Priority (high/medium/low): ").lower().strip()
 time_bound = input("Is it time-bound? (yes/no): ").lower().strip()
 
 # Process the Task Based on Priority and Time Sensitivity
-print("\nTask Reminder:")
 match priority:
     case "high":
         reminder = f"High priority task: '{task}'"
@@ -31,4 +30,4 @@ match priority:
         reminder = f"Task: '{task}' - please review priority setting."
 
 # Provide a Customized Reminder
-print(reminder)
+print(f"Reminder: {reminder}")
