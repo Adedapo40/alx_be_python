@@ -6,4 +6,5 @@ print(f"\nMultiplication table for {number}:")
 print("-" * 20)
 for i in range(1, 11):
     product = number * i
-    print(f"{number} × {i:2} = {product:3}")
+   
+    print(f"{number} * {i} = {product}")
